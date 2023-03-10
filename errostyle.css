@@ -5,39 +5,41 @@ body, h1, p, a{
     box-sizing:border-box;
   }
 body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    color: #2b80ff;
   }
 .content{
     font-size: 0;
     width: 520px;
-    margin: 110px auto 280px;
+    margin: 110px auto 22px;
 }
 .image{
     width: 520px;
-    border-style: solid;
 }
-.number{
-    width: 420px;
+.button{
     font-size: 120px;
-    font-style: normal;
-    font-family: Arial, sans-serif;
-    color: #2b80ff;
-    border-style: solid;
-    text-align: center;
     letter-spacing: 10px;
     font-weight: 500;
-    margin:10px auto 280px;
+    margin:10px auto 22px;
+    cursor: pointer;
 }
-
+.button:hover{
+    opacity: 0.8;
+}
+.button, .explanation, .ref{
+   width: 420px; 
+   text-align: center;
+   border-style: solid;
+}
+.explanation{
+    font-size: 17px; 
+    margin: 22px auto; 
+}
 .ref{
     font-size: 17px;
-    font-style: normal;
-    color: #2b80ff;
-    border-style: solid;
-    width: 420px;
-    margin: 280px auto 30px;
-    text-align: center;
-    font-weight: 400;
+    position: absolute; 
+    bottom: 30px
 }
 .refcolor{
     color:#2b80ff;
