@@ -5,9 +5,9 @@ body, h1, p, a{
     box-sizing:border-box;
   }
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
     font-style: normal;
-    color: #2b80ff;
+    color: #2f80ed;
   }
 .content{
     font-size: 0;
@@ -21,25 +21,30 @@ body {
     font-size: 120px;
     letter-spacing: 10px;
     font-weight: 500;
-    margin:10px auto 22px;
+    margin: 10px auto 22px;
     cursor: pointer;
 }
 .button:hover{
     opacity: 0.8;
 }
-.button, .explanation, .ref{
+.button, .explanation{
    width: 420px; 
    text-align: center;
-   border-style: solid;
 }
-.explanation{
+.explanation{ 
     font-size: 17px; 
     margin: 22px auto; 
 }
-.ref{
+.footer{
+    width: 100%;
+    position: fixed; 
+    bottom: 30px; 
+}
+.footertext{
+    width: 420px; 
+    text-align: center;
     font-size: 17px;
-    position: absolute; 
-    bottom: 30px
+    margin: auto;
 }
 .refcolor{
     color:#2b80ff;
