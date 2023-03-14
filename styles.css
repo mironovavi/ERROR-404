@@ -24,7 +24,7 @@ body {
     margin: 10px auto 22px;
     cursor: pointer;
 }
-.button:hover{
+.button:hover, .footertext:hover, .explanation:hover {
     opacity: 0.8;
 }
 .button, .explanation{
@@ -34,6 +34,7 @@ body {
 .explanation{ 
     font-size: 17px; 
     margin: 22px auto; 
+    color: #2b80ff; 
 }
 .footer{
     width: 100%;
